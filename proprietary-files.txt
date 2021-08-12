@@ -110,6 +110,13 @@ vendor/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so
 vendor/lib64/vendor.qti.hardware.data.qmi@1.0.so
 vendor/lib64/vendor.qti.hardware.slmadapter@1.0.so
 
+# Graphics firmware 
+vendor/firmware/a612_rgmu.bin
+vendor/firmware/a618_gmu.bin
+vendor/firmware/a630_gmu.bin
+vendor/firmware/a630_sqe.fw
+vendor/firmware/a640_gmu.bin
+
 # ConfigStore
 -system_ext/framework/vendor.qti.hardware.capabilityconfigstore-V1.0-java.jar
 vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service
