@@ -1,0 +1,14 @@
+[
+   {
+   "remote"       : "github",
+   "repository"   : "ancient-devices/kernel_motorola_sm6150",
+   "target_path"  : "kernel/motorola/sm6150",
+   "branch"       : "eleven"
+   },
+   {
+   "remote"       : "github",
+   "repository"   : "ancient-devices/proprietary_vendor_motorola-liber",
+   "target_path"  : "vendor/motorola",
+   "branch"       : "eleven"
+   } 
+]
