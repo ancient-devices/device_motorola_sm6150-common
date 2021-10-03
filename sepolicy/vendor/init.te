@@ -4,6 +4,10 @@ allow init fsg_firmware_file:dir mounton;
 allow init fsg_firmware_file:filesystem { getattr mount relabelfrom unmount };
 allow init firmware_file:filesystem unmount;
 
+# Allow init to read and write to vendor_sysfs_graphics
+allow init vendor_sysfs_graphics:dir search;
+allow init vendor_sysfs_graphics:file rw_file_perms;
+
 # Allow init to access loop devices
 allow init loop_device:blk_file { create setattr unlink };
 allowxperm init loop_device:blk_file ioctl {
